@@ -1,4 +1,9 @@
 {
-  "buildCommand": "",
-  "outputDirectory": "."
+  "buildCommand": "npm install --omit=dev",
+  "functions": {
+    "server.js": {
+      "memory": 512,
+      "maxDuration": 30
+    }
+  }
 }
